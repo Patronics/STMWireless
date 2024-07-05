@@ -4358,6 +4358,16 @@
 	)
 	(wire
 		(pts
+			(xy 15.24 21.59) (xy 16.51 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3081e0fd-ced9-4276-8f56-1ce461d2d613")
+	)
+	(wire
+		(pts
 			(xy 55.88 39.37) (xy 55.88 41.91)
 		)
 		(stroke
@@ -5547,6 +5557,73 @@
 			(project "stmWireless"
 				(path "/1b6f2151-7631-405e-8c4b-cce50e35ccd7"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 27.94 21.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c957a23-7bfb-4fe8-8317-10b1c750f7f3")
+		(property "Reference" "R6"
+			(at 27.94 23.876 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "500"
+			(at 27.94 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 27.94 23.368 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 27.94 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68260ce3-4877-41d6-a6b7-d8fa2c48c05f")
+		)
+		(pin "2"
+			(uuid "a76b736e-93c2-4890-b651-27ebf4868f03")
+		)
+		(instances
+			(project ""
+				(path "/1b6f2151-7631-405e-8c4b-cce50e35ccd7"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -7840,10 +7917,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "f96f6d8f-e22b-43aa-9050-72b7e5be9425")
+			(uuid "f96f6d8f-e22b-43aa-9050-72b7e5be9426")
 		)
 		(pin "1"
-			(uuid "c29a760d-a753-4902-97e8-e3f7bb72cde5")
+			(uuid "c29a760d-a753-4902-97e8-e3f7bb72cde6")
 		)
 		(instances
 			(project ""
@@ -8861,7 +8938,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "48501ecd-1721-460b-93cb-7db05fe7fa5e")
+			(uuid "48501ecd-1721-460b-93cb-7db05fe7fa5f")
 		)
 		(instances
 			(project ""
@@ -9008,6 +9085,73 @@
 			(project ""
 				(path "/1b6f2151-7631-405e-8c4b-cce50e35ccd7"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 20.32 21.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c42e5d26-addc-47c6-87e3-449c0c3a9b00")
+		(property "Reference" "D2"
+			(at 21.9075 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "power on LED"
+			(at 23.876 18.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 20.32 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 20.32 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "edb79224-799a-4012-b389-aa3fdfb6c630")
+		)
+		(pin "2"
+			(uuid "63ac37cc-fb13-4082-9b69-3b183bb70fb0")
+		)
+		(instances
+			(project ""
+				(path "/1b6f2151-7631-405e-8c4b-cce50e35ccd7"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -9346,6 +9490,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 15.24 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9deecfb-04e8-489b-b950-7146e59fca07")
+		(property "Reference" "#PWR031"
+			(at 15.24 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 15.24 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 15.24 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 15.24 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 15.24 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1758532-f092-427f-a274-f397702440bb")
+		)
+		(instances
+			(project ""
+				(path "/1b6f2151-7631-405e-8c4b-cce50e35ccd7"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 231.14 58.42 0)
 		(unit 1)
@@ -9405,6 +9615,72 @@
 			(project "stmWireless"
 				(path "/1b6f2151-7631-405e-8c4b-cce50e35ccd7"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 31.75 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f702c8d4-1c81-463a-a048-16d51221ee1c")
+		(property "Reference" "#PWR030"
+			(at 31.75 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 31.75 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a33a6e11-79a5-49ec-a064-169576926524")
+		)
+		(instances
+			(project ""
+				(path "/1b6f2151-7631-405e-8c4b-cce50e35ccd7"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)

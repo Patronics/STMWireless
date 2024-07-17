@@ -2370,7 +2370,7 @@
 				)
 			)
 		)
-		(symbol "Project_library:BALFLB-WL-08D3"
+		(symbol "Project_library:BALFHB-WL-02D3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2383,7 +2383,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "BALFLB-WL-08D3"
+			(property "Value" "BALFHB-WL-02D3"
 				(at 34.29 5.08 0)
 				(effects
 					(font
@@ -2392,7 +2392,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "BALFLBWL08D3"
+			(property "Footprint" "BALFHBWL02D3"
 				(at 34.29 -94.92 0)
 				(effects
 					(font
@@ -2402,7 +2402,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/balflb-wl-08d3.pdf"
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/balfhb-wl-02d3.pdf"
 				(at 34.29 -194.92 0)
 				(effects
 					(font
@@ -2412,7 +2412,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "balun,filtering and matching of STM32WL 17dbm 490Mhz , QFN package 4 layers pcb"
+			(property "Description" "50  nominal input / conjugate matched balun to QFN-4L STM32WL in high power mode, 862-928 MHz with integrated harmonic filter"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2441,7 +2441,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "BALFLB-WL-08D3"
+			(property "Manufacturer_Part_Number" "BALFHB-WL-02D3"
 				(at 34.29 -594.92 0)
 				(effects
 					(font
@@ -2451,7 +2451,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" ""
+			(property "Mouser Part Number" "511-BALFHB-WL-02D3"
 				(at 34.29 -694.92 0)
 				(effects
 					(font
@@ -2461,7 +2461,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" ""
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/BALFHB-WL-02D3?qs=T%252BzbugeAwjiiXP9WLIpAiQ%3D%3D"
 				(at 34.29 -794.92 0)
 				(effects
 					(font
@@ -2491,7 +2491,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BALFLB-WL-08D3_1_1"
+			(symbol "BALFHB-WL-02D3_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 33.02 -10.16)
@@ -7291,7 +7291,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Project_library:BALFLB-WL-08D3")
+		(lib_id "Project_library:BALFHB-WL-02D3")
 		(at 86.36 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7308,7 +7308,7 @@
 				)
 			)
 		)
-		(property "Value" "BALFLB-WL-08D3"
+		(property "Value" "BALFLB-WL-02D3"
 			(at 105.41 148.1398 0)
 			(effects
 				(font
@@ -7316,7 +7316,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project_library:BALFLBWL08D3"
+		(property "Footprint" "BALFHBWL02D3"
 			(at 120.65 247.32 0)
 			(effects
 				(font
@@ -7326,7 +7326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/balflb-wl-08d3.pdf"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/balfhb-wl-02d3.pdf"
 			(at 120.65 347.32 0)
 			(effects
 				(font
@@ -7336,7 +7336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "balun,filtering and matching of STM32WL 17dbm 490Mhz , QFN package 4 layers pcb"
+		(property "Description" "50  nominal input / conjugate matched balun to QFN-4L STM32WL in high power mode, 862-928 MHz with integrated harmonic filter"
 			(at 86.36 152.4 0)
 			(effects
 				(font
@@ -7365,7 +7365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "BALFLB-WL-08D3"
+		(property "Manufacturer_Part_Number" "BALFHB-WL-02D3"
 			(at 120.65 747.32 0)
 			(effects
 				(font
@@ -7375,7 +7375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "511-BALFHB-WL-02D3"
 			(at 120.65 847.32 0)
 			(effects
 				(font
@@ -7385,7 +7385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" ""
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/BALFHB-WL-02D3?qs=T%252BzbugeAwjiiXP9WLIpAiQ%3D%3D"
 			(at 120.65 947.32 0)
 			(effects
 				(font

@@ -4818,6 +4818,12 @@
 		(uuid "51a6c09c-d80c-4be8-bc23-910dd16687b4")
 	)
 	(junction
+		(at 133.35 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "559d5952-9d57-4b75-a2c3-7c4d7327fc93")
+	)
+	(junction
 		(at 124.46 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4930,12 +4936,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2307a2f-84e4-4f26-96cd-6e8337fa6b45")
-	)
-	(junction
-		(at 133.35 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b9a00b4c-6f82-49d8-947b-f5f42e4a8623")
 	)
 	(junction
 		(at 245.11 59.69)
@@ -12602,28 +12602,30 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 128.27 184.15 90)
+		(at 128.27 184.15 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c8de5981-9db7-487a-9be7-f71f38b5f97f")
 		(property "Reference" "J4"
-			(at 128.5632 177.8 90)
+			(at 125.7299 183.231 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "SMA"
-			(at 128.5632 180.34 90)
+			(at 125.7299 185.6553 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

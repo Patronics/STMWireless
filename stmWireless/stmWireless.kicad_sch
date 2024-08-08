@@ -6531,6 +6531,16 @@
 		)
 		(uuid "1ae2f656-36f6-4595-8a32-cc2a3ef1873e")
 	)
+	(text "915Mhz Antenna"
+		(exclude_from_sim no)
+		(at 126.238 179.832 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "437d43a6-10f8-4002-83d2-5ae6ab57a483")
+	)
 	(text "JTAG/SWD section"
 		(exclude_from_sim no)
 		(at 251.206 37.592 0)

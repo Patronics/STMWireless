@@ -15419,6 +15419,18 @@
 		(layer "Cmts.User")
 		(uuid "b7fb40d4-a70c-4f39-8529-0fd8e0567e7b")
 	)
+	(gr_text "PB5\nBB6\nPB7\nPB8\nPA0\nPA1\nPA2\nPA3\nPA4\n... TODO"
+		(at 120.904 89.916 0)
+		(layer "F.SilkS")
+		(uuid "0c8f769a-08cd-4cb3-b485-b6680039085d")
+		(effects
+			(font
+				(size 1.6 1.5)
+				(thickness 0.1875)
+			)
+			(justify right bottom)
+		)
+	)
 	(gr_text "VDD\nVDD\nVDD\nVBAT\nVIN\nVIN\nVIN"
 		(at 152.4 69.215 90)
 		(layer "F.SilkS")

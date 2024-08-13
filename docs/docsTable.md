@@ -7,3 +7,4 @@
 | How To Develop RF Hardware                   | [AN5165](an5165-development-of-rf-hardware-using-stm32wb-microcontrollers-stmicroelectronics.pdf)         | For high-frequency wireless, but explains basics better than the 'how to optimize' reference |
 | Reference Designs Overview                   | [STDES-WL5xxxxx](stdes-wl5u4shw.pdf)                                                                      | List of reference layouts                                                                    |
 | Reference Design-4 layer, w/ IPD, High Power | [MB1848-hp](reference%20schematics/en.mb1848-hp-schematic.pdf)                                              |                                                                                              |
+| Reference document about impedance matching  | [SiLabs AN1257](an1275-imp-match-for-network-arch.pdf)

@@ -7463,6 +7463,16 @@
 		)
 		(uuid "8703fc4c-81af-48e8-bb94-d80539987ff5")
 	)
+	(text "PB5\nPB6\nPB7\nPB8\nPA0\nPA1\nPA2\nPA3\nPA4\nPA5\nPA6\nPA8\nPA9"
+		(exclude_from_sim no)
+		(at 75.946 91.44 0)
+		(effects
+			(font
+				(size 1.6 1.6)
+			)
+		)
+		(uuid "cfdcdf8d-87f5-4ded-89cf-30cf9d03fbf9")
+	)
 	(label "SWDIO"
 		(at 186.69 104.14 180)
 		(fields_autoplaced yes)
@@ -9624,7 +9634,7 @@
 		(dnp no)
 		(uuid "3c89fc96-04cf-4948-b539-ce67ec945963")
 		(property "Reference" "J6"
-			(at 77.978 90.2278 0)
+			(at 81.026 73.7178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9633,7 +9643,7 @@
 			)
 		)
 		(property "Value" "GPIO1"
-			(at 77.978 92.6521 0)
+			(at 84.328 110.6861 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14204,10 +14214,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e7f5ccb9-c3cb-4f55-9f58-249f49993663")
+			(uuid "e7f5ccb9-c3cb-4f55-9f58-249f49993664")
 		)
 		(pin "1"
-			(uuid "b0882400-0e31-4d0b-845a-274e89b6f9fe")
+			(uuid "b0882400-0e31-4d0b-845a-274e89b6f9ff")
 		)
 		(instances
 			(project ""

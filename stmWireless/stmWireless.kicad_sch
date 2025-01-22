@@ -7475,7 +7475,6 @@
 	)
 	(label "SWDIO"
 		(at 186.69 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7486,7 +7485,6 @@
 	)
 	(label "JTDO"
 		(at 264.16 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7497,7 +7495,6 @@
 	)
 	(label "SWCLK"
 		(at 186.69 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7508,7 +7505,6 @@
 	)
 	(label "i2c3_SMBA"
 		(at 190.5 116.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7519,7 +7515,6 @@
 	)
 	(label "JTDI"
 		(at 186.69 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7530,7 +7525,6 @@
 	)
 	(label "JTDO"
 		(at 104.14 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7541,7 +7535,6 @@
 	)
 	(label "JTDI"
 		(at 264.16 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7552,7 +7545,6 @@
 	)
 	(label "SWDIO"
 		(at 264.16 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7563,7 +7555,6 @@
 	)
 	(label "i2c3_SCL"
 		(at 35.56 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7574,7 +7565,6 @@
 	)
 	(label "SWDIO"
 		(at 233.68 66.04 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7585,7 +7575,6 @@
 	)
 	(label "i2c3_SDA"
 		(at 101.6 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7596,7 +7585,6 @@
 	)
 	(label "VBAT"
 		(at 186.69 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7607,7 +7595,6 @@
 	)
 	(label "SWCLK"
 		(at 228.6 66.04 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7618,7 +7605,6 @@
 	)
 	(label "SWCLK"
 		(at 264.16 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7629,7 +7615,6 @@
 	)
 	(label "NRST"
 		(at 264.16 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7640,7 +7625,6 @@
 	)
 	(label "i2c3_SCL"
 		(at 101.6 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7651,7 +7635,6 @@
 	)
 	(label "i2c3_SMBA"
 		(at 35.56 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7662,7 +7645,6 @@
 	)
 	(label "i2c3_SDA"
 		(at 35.56 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7673,7 +7655,6 @@
 	)
 	(label "VBAT"
 		(at 53.34 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7684,7 +7665,6 @@
 	)
 	(label "NRST"
 		(at 104.14 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11667,7 +11647,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "47nH"
 			(at 95.25 127 90)
 			(effects
 				(font
@@ -11675,7 +11655,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 95.25 129.54 0)
 			(effects
 				(font
@@ -14246,7 +14226,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "0R"
 			(at 139.7 181.61 90)
 			(effects
 				(font
@@ -14254,7 +14234,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 139.7 184.15 0)
 			(effects
 				(font
